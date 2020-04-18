@@ -2,9 +2,10 @@
 
 namespace AppPowerFitness\Http\Controllers;
 
+use AppPowerFitness\Cliente;
 use Illuminate\Http\Request;
 
-class ClientesController extends Controller
+class ClienteController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,7 +14,7 @@ class ClientesController extends Controller
      */
     public function index()
     {
-        return 'Hola Mundo sdksañdñadad';
+        //
     }
 
     /**
@@ -23,7 +24,7 @@ class ClientesController extends Controller
      */
     public function create()
     {
-        //
+        return view('clientes.create');
     }
 
     /**
